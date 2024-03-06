@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>MyTV</title>
+    <!-- local css file in public directory -->
+    <link rel="stylesheet" href="../style.css"> 
+</head>
+<body>
+      <header>
+        <h1> Add </h1>
+        <p>Add TV show.</p>
+      </header>
+    
+      <main>
+        <div>
+            <form action="/admin/add" method="POST">
+                <p><input name="showField"></p>
+                <p><input name="imgField"></p>
+                <p><textarea name="desField"></textarea></p>
+                <input type="submit" value="Add Show">
+            </form>
+        </div>
+      </main>
+</body>
+</html>
